@@ -1,0 +1,43 @@
+Type,Item,Category,Gender
+top,Cotton T-shirt,hot,Unisex
+top,Lightweight Blouse,hot,Female
+top,Sleeveless Shirt,hot,Female
+top,Short Sleeve Dress,hot,Female
+top,Light Sweater,warm,Unisex
+top,Long Sleeve T-shirt,warm,Male
+top,Button-Up Shirt,warm,Unisex
+top,Flowy Top,cool,Female
+top,Knitted Sweater,cool,Unisex
+top,Turtleneck,cold,Unisex
+top,Layered Tank,very_cold,Female
+top,Wool Sweater,very_cold,Unisex
+top,Heavy Knit Top,freezing,Female
+top,Thermal Top,freezing,Unisex
+bottom,Denim Shorts,hot,Male
+bottom,Cotton Skirt,hot,Female
+bottom,Lightweight Trousers,hot,Unisex
+bottom,Chino Shorts,warm,Male
+bottom,Culottes,warm,Female
+bottom,Capri Pants,warm,Female
+bottom,Jeans,cool,Unisex
+bottom,Twill Pants,cool,Unisex
+bottom,Trousers,cold,Unisex
+bottom,Thick Tights,very_cold,Female
+bottom,Wool Trousers,very_cold,Male
+bottom,Heavy Leggings,freezing,Female
+bottom,Thermal Leggings,freezing,Unisex
+outerwear,Light Rain Jacket,hot,Unisex
+outerwear,Denim Jacket,warm,Unisex
+outerwear,Casual Blazer,warm,Unisex
+outerwear,Wool Coat,cool,Unisex
+outerwear,Windbreaker,cool,Unisex
+outerwear,Heavy Parka,cold,Unisex
+outerwear,Insulated Coat,very_cold,Unisex
+outerwear,Down Jacket,freezing,Unisex
+accessory,Thin Cotton Gloves,cold,Unisex
+accessory,Thin Cotton Scarf,cold,Unisex
+accessory,Thin Wool Gloves,very_cold,Unisex
+accessory,Thin Wool Scarf,very_cold,Unisex
+accessory,Thick Wool Gloves,freezing,Unisex
+accessory,Thick Wool Scarf,freezing,Unisex
+outerwear,Waterproof Jacket and Pants,rain,Unisex

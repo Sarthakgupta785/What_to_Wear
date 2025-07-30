@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>👕 What to Wear Today?</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #83a4d4, #b6fbff);
+            text-align: center;
+            padding: 2rem;
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #004466;
+        }
+        form {
+            margin-top: 2rem;
+        }
+        input, select, button {
+            padding: 0.5rem;
+            font-size: 1rem;
+            margin: 0.5rem;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #0077cc;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005fa3;
+        }
+        .outfit {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #f0faff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        .emoji {
+            font-size: 2rem;
+            margin-right: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>👕 What Should I Wear Today?</h1>
+
+    <form action="/recommend" method="post">
+        <input type="text" name="city" placeholder="Enter your city 🌍" required>
+        <select name="gender" required>
+            <option value="" disabled selected>Select Gender</option>
+            <option value="Male">👨 Male</option>
+            <option value="Female">👩 Female</option>
+            <option value="Unisex">🧑 Unisex</option>
+        </select>
+        <button type="submit">Get Outfit 🎯</button>
+    </form>
+
+    {% if recommendations %}
+    <div class="outfit">
+        <h2>Today's Outfit Suggestion:</h2>
+        {% for item in recommendations %}
+            <p><span class="emoji">🧥</span>{{ item }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+</body>
+</html>
